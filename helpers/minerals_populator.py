@@ -9,7 +9,7 @@ import os
 
 if __name__ == '__main__':
     file_loc = os.path.join(os.getcwd(), 'assets\minerals.json')
-    file_save = os.path.join(os.getcwd(), r'minerals\fixtures\minerals_dump.json')
+    file_save = os.path.join(os.getcwd(), 'minerals\fixtures\minerals_dump.json')
 
     with open(file_loc, encoding='utf8', mode='r') as file_r:
         data = json.load(file_r)
